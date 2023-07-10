@@ -1,0 +1,162 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    overflow-x: hidden; 
+}
+.container
+{
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+.container img
+{
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+nav
+{
+    position: absolute;
+    width: 100%;
+    z-index: 11;
+}
+nav ul
+{
+    padding: 2rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    list-style: none;
+    font-size: 2rem;
+}
+nav ul li:hover
+{
+    cursor: pointer;
+}
+.main-title
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+}
+.btn
+{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    background: #170d66;
+    padding: 12px 21px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    z-index: 11;
+    cursor: pointer;
+}
+.main-title h1
+{
+    font-size: 5rem;
+    color: #ce1cfe;
+}
+.main-title h2
+{
+    font-size: 5rem;
+    color: #fff;
+}
+.main-title p
+{
+    max-width: 20rem;
+    font-size: 1.5rem;
+}
+#lVector, #rvector
+{
+    z-index: 10;
+}
+
+
+.projects-section
+{
+    background: url(./glass-bg3.png);
+    min-height: 100vh;
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0rem 3rem;
+}
+.project-headings h1
+{ 
+    color: #ce1cfe;
+}
+.page-2
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page-2-container
+{
+    display: flex;
+    gap: 5rem;
+}
+
+.card-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card
+{
+    width: 300px;
+    height: 370px;
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0px 3.87758px 41.684px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(98.3935px);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.card img
+{
+    width: 300px;
+    height: 190px;
+    border-radius: 20px;
+}
+.card h1
+{
+    font-size: 1.5rem;
+}
+.card p
+{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
